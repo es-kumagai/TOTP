@@ -1,0 +1,33 @@
+{
+  "originHash" : "046ced5e6d4a7df6c92bda9801b645e08d720532e3dcd8da4d82ce765facd019",
+  "pins" : [
+    {
+      "identity" : "ocean",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/es-kumagai/Ocean.git",
+      "state" : {
+        "revision" : "42e456848fd6727aceff01ad4a3d36514ad7a2d9",
+        "version" : "0.2.2"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "f0525da24dc3c6cbb2b6b338b65042bc91cbc4bb",
+        "version" : "3.3.0"
+      }
+    },
+    {
+      "identity" : "swim",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/es-kumagai/Swim",
+      "state" : {
+        "revision" : "46a6cab57c881ac351082036f333e8ce353152c9",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}
