@@ -23,7 +23,12 @@ let package = Package(
             name: "TOTP",
             dependencies: [
                 "Ocean",
-                .product(name: "Crypto", package: "swift-crypto")]
+                .product(name: "Crypto", package: "swift-crypto")],
+            swiftSettings: [
+                .unsafeFlags([
+                    "-enable-library-evolution"
+                ])
+            ]
         ),
         .testTarget(
             name: "TOTPTests",
